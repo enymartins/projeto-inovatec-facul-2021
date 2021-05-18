@@ -235,6 +235,14 @@ header .navbar ul li a:hover {
     flex:1 1 40rem;
 }
 
+.symtoms .content .heading {
+    color: black;
+}
+
+.symtoms .content .heading .symp {
+    color: rgb(90, 14, 121);
+}
+
 .symtoms .image {
     flex:1 1 40rem;
 }
@@ -405,6 +413,17 @@ header .navbar ul li a:hover {
 
 .footer .credit a {
     color: var(--blue);
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+}
+
+.scroll-top img {
+    height: 7rem;
 }
 
 
