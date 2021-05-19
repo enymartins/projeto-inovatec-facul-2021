@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 :root {
     --blue:rgb(62, 113, 221);
 }
@@ -9,8 +9,7 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
-    transition: all .3s cubic-bezier(.16, .8, .62, 1.52);
-    /* text-transform: capitalize; */
+    transition: all .3s cubic-bezier(.16,.8,.62,1.52);
 }
 
 *::selection {
@@ -93,15 +92,14 @@ header {
     position: fixed;
     top: 0; left: 0;
     z-index: 1000;
-    padding: 2,5rem 7%;
-    box-shadow: 0.5rem 1 rem rgba(0,0,0,.1);
+    padding: 2.5rem 7%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 
 }
 
 header .logo {
     font-size: 2.5rem;
     color: #666;
-    margin-left: 10px;
 }
 
 header .logo span{
@@ -123,7 +121,6 @@ header .navbar ul li {
 header .navbar ul li a {
     color: #999;
     font-size: 2rem;
-    margin-right: 10px;
 }
 
 header .navbar ul li a.active,
@@ -139,7 +136,6 @@ header .navbar ul li a:hover {
     color: #999;
     cursor: pointer;
     display: none;
-    margin-right: 7px;
 }
 
 .home {
@@ -306,7 +302,6 @@ header .navbar ul li a:hover {
 }
 
 .help .row .content p {
-    margin-left: 2rem;
     font-size: 1.7rem;
     color: #666;
     padding: 1rem 0;
@@ -329,6 +324,39 @@ header .navbar ul li a:hover {
     background: url(../images/Vaccine-bro.png) no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.general .content {
+    padding: 2rem 0;
+    flex: 1 1 37rem;
+}
+
+.general .content h1{
+    font-size: 2.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.general .content p {
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.general .image {
+    flex:1 1 37rem;
+}
+
+.general .image img {
+    width: 100%;
+    height: 150%;
 }
 
 .footer {
@@ -423,7 +451,7 @@ header .navbar ul li a:hover {
 }
 
 .scroll-top img {
-    height: 7rem;
+    height: 10rem;
 }
 
 
